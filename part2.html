@@ -21,7 +21,9 @@
             color: white;
             padding-top: 2rem; /* Added 'rem' for proper spacing */
         }
-
+        audio{
+            text-align: center;
+        }
         #div2 {
             text-align: center;
         }
@@ -45,11 +47,17 @@
             #text {
                 font-size: 0.5em;
             }
+            #div3{
+                font-size: 30px;
+                padding-top: 140px;
+            }
         }
+        
 
         @media (max-width: 480px) {
             #text {
-                font-size: 4.2em;
+                font-size: 2.2em;
+                padding-top: 50px;
             }
 
             #h3 {
@@ -59,6 +67,10 @@
 
             #div2 {
                 font-size: 1.6em;
+            }
+            #div3{
+                font-size: 30px;
+                padding-top: 140px;
             }
         }
 
@@ -71,29 +83,17 @@
     </style>
 </head>
 <body>
-    <div id="text"></div>
-    <h3 id="h3">
-        ከዘመን በፊት የነበረ<br>
-        ዘመንን ዘመን ብሎ የፈጠረ<br>
-        የዘመን ሁሉ ጌታ<br>
-        ዘመን ሰጪና ጨማሪ<br>
-        እነሆ ዘረጋልን ምህረቱን<br>
-        ደገመው በጎነቱን ደግነቱን<br>
-        መለከያ የለውም <br>
-        መስፈሪያ የለውም--- ክብር ይብዛለት!!<br>
+    <div id="text">አበባይሆሽ ለመስማት</div>
+  
 
-        ዓመቱ የእግዚአብሔር በጎነት የምናይበት<br>
-        ፈቃዱ በሙላት የሚፈጸምበት<br>
-        የእርሱን ደስታ የምናይበት<br>
-        የልቡ ሀሳብ በልጦብን ጌታ ከብሮ<br>
-        በብዙ እርምጃ ወደ እርሱ የምንቀርብበት<br>
-        አዲስ ዓመት ይሁንልን<br>
-        የምንዘልቅበት ከእርሱ ጋር ወደፊት<br>
-        
-        እንኳን አደረሰን አደረሳችሁ!!
-    </h3>
     <div id="div2">
-        <a href="yemulmul.html"><button>የሙልሙል ለመስጠት </button></a>
-    </div>
+        <audio controls>
+        <source src="mele.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+   
+        <a href="yemulmul.html"><button>ስጦታ ለመስጠት</button></a>
+    
+</div>
 </body>
 </html>
